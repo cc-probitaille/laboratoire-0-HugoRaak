@@ -12,14 +12,14 @@ describe('JeuDeDesTest', () => {
   })
 
   it('devrait retourner une valeur entre 3 et 18', () => {
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 2000; i++) {
       expect(jdd.brasser()).toBeWithin(3, 19);
     }
   })
 
   it('devrait retourner finalement toutes les valeurs entre 3 et 18', () => {
     const resultats = new Set();
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 2000; i++) {
       resultats.add(jdd.brasser())
     }
     expect(resultats.size).toBe(16);
