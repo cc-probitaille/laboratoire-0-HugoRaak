@@ -18,7 +18,7 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
   it('should return 200 and content type application/json', async () => {
     const response = await request.get('/api/v1/jeu/redemarrerJeu');
     expect(response.type).toBe("application/json");
-    expect(response.body.status).toBe(200);
+    expect(response.statusCode).toBe(200);
   });
 
   it('should return 0 joueurs', async () => {
