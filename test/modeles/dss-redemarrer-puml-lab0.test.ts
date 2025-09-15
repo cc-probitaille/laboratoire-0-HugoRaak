@@ -18,7 +18,7 @@ describe('docs/modeles/dss-redemarrerJeu.puml', () => {
   });
 
   it("devrait contenir redemarrerJeu()", () => {
-    expect(content.includes("redémarrerJeu()")).toBeTruthy();
+    expect(content.includes("redemarrerJeu()")).toBeTruthy();
   });
 
 });
