@@ -25,8 +25,8 @@ describe('ReadmeSquelette', () => {
     expect(content.includes("- d3.valeur est devenue un nombre entier aléatoire entre 1 et 6")).toBeTruthy();
   });
 
-  it("devrait contenir - j.nbLancersGagnés a été incrémenté si la totale de d1.valeur, d2.valeur, d3.valeur est plus petite ou égale à 10", () => {
-    expect(content.includes("- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur, d2.valeur, d3.valeur est plus petite ou égale à 10")).toBeTruthy();
+  it("devrait contenir - j.nbLancersGagnés a été incrémenté si la totale de d1.valeur et d2.valeur et d3.valeur est inférieur ou égale à 10", () => {
+    expect(content.includes("- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur et d2.valeur et d3.valeur est inférieur ou égale à 10")).toBeTruthy();
   });
 
 });
