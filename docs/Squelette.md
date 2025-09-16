@@ -205,7 +205,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-jouer.puml)
+![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-terminerJeu.puml)
 
 #### Opération: `terminerJeu(nom:String)`
 
@@ -213,11 +213,11 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 - L'instance j de Joueur a été supprimée sur une base de correspondance avec nom
 
-![Diagramme de séquence, terminerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-HugoRaak/master/docs/modeles/App.puml)
-
-[README.md](../README.md)
-
+![Diagramme de séquence, terminerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-terminerJeu.puml)
 
 #### Diagramme de classes logicielles
 
-![Diagramme de classes logicielles](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/App.puml)
+![Diagramme de classes logicielles](http://www.plantuml.com/plantuml/png/rLJHRjem57tdAwm-KG4LdRgN3A6YfPrMRMnTFw0oyHdobDZfjTs14Fy-auIh13IcxMKj3n4-zzvpx7liU-sy91-ANCpAifVbqZcHGcnw8lv6ZyyoHw14c50iG1KuM51C0lNF4_5ijQh1WyHjJowS9vbvKNCgV9SXzm8h3wESk26orCWCDllahSYiGekbBlve8hrMNoN90XvK5JFLh2dkKDOyL-CnazpPW41yCcEBHCH2RPPxPF59cWpaMFy0_o2N1jteu8WcIabjDCrjqMy5ppjPW_n8YK6MEGvrMxwCUOUOjtSFN-OxR2DQwk_4WM03i1Z3M-xNtFfR6upwYsPVSV4i9qYrlbbfvzs_sOMG8eLZmtvK_hb4V9Rbf3xMi35rsgIeoqIas2_Uy6AWK4WYK2GzOSfEWKx4FQZGvayiX9PQrnr-ELrp-MGrJRi5tspm8Eu1LSj4r703PjPuiZd2JZ3XnjNS9uF7TDrM4PvY44y1pa-gr-TIdNbjZQJrK4Yp_zm7qFgXslr5p7DGzsuOApDBYhsAcTFfK13SZjILrZXC8lYxH8ELJyGyVc-3gLIvcUpMYzxYw154bjvRXRVZSRzQ9FLk_kUsUOkTE_tIxIQycfkfZVRyy7aYbkL-s65L4foBI2AQ_nTnaUjCxhZgkrDefNByb0Icgl3gpReMFG_AqMWgpYxFcfbuZAVeyKHXa0V2DOmAHVuB)
+
+
+[README.md](../README.md)
